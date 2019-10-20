@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="list-group list-group-horizontal mt-4">
+        <a href="{% url 'movies:index' %}" class="list-group-item list-group-item-action">
+            Movies
+        </a>
+        <a href="/api/movies" class="list-group-item list-group-item-action">
+            Movies API
+        </a>
+    </div>
+{% endblock %}

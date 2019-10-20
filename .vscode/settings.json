@@ -1,0 +1,6 @@
+{
+    "python.pythonPath": "venv/bin/python3.7",
+    "python.formatting.provider": "black",
+    "djangointellisense.projectRoot": ".",
+    "djangointellisense.settingsModule": "vidly.settings"
+}
