@@ -24,7 +24,7 @@ SECRET_KEY = "5z8b@@c8ohbtk(bl)r3(54$n0iu_@6v4oo!fpo$%=$)6$q&%1a"
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["azdanov-vidly-python.herokuapp.com"]
 
 # Application definition
 
